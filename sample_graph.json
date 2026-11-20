@@ -1,0 +1,25 @@
+{
+  "entities": [
+    {"name": "Satya Nadella", "type": "Person", "description": "CEO of Microsoft"},
+    {"name": "Sam Altman", "type": "Person", "description": "CEO of OpenAI"},
+    {"name": "Microsoft", "type": "Organization", "description": "Technology company"},
+    {"name": "OpenAI", "type": "Organization", "description": "AI research company"},
+    {"name": "Redmond", "type": "Place", "description": "City in Washington, USA"},
+    {"name": "San Francisco", "type": "Place", "description": "City in California, USA"},
+    {"name": "Azure", "type": "Product", "description": "Microsoft cloud platform"},
+    {"name": "Microsoft Foundry", "type": "Product", "description": "AI app and agent platform on Azure"},
+    {"name": "GPT-4o", "type": "Product", "description": "Multimodal large language model"}
+  ],
+  "relationships": [
+    {"source": "Satya Nadella", "target": "Microsoft", "type": "CEO_OF"},
+    {"source": "Microsoft", "target": "Redmond", "type": "HEADQUARTERED_IN"},
+    {"source": "Microsoft", "target": "Azure", "type": "DEVELOPED"},
+    {"source": "Microsoft", "target": "Microsoft Foundry", "type": "DEVELOPED"},
+    {"source": "Microsoft Foundry", "target": "Azure", "type": "RUNS_ON"},
+    {"source": "OpenAI", "target": "Microsoft", "type": "PARTNERS_WITH"},
+    {"source": "Sam Altman", "target": "OpenAI", "type": "CEO_OF"},
+    {"source": "OpenAI", "target": "San Francisco", "type": "BASED_IN"},
+    {"source": "OpenAI", "target": "GPT-4o", "type": "CREATED"},
+    {"source": "GPT-4o", "target": "Microsoft Foundry", "type": "AVAILABLE_IN"}
+  ]
+}

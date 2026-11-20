@@ -1,0 +1,4 @@
+Satya Nadella is the CEO of Microsoft. Microsoft is headquartered in Redmond.
+Microsoft developed Azure, and Microsoft Foundry runs on Azure.
+OpenAI partners with Microsoft. Sam Altman is the CEO of OpenAI, which is based in San Francisco.
+OpenAI created GPT-4o, which is available in Microsoft Foundry.
